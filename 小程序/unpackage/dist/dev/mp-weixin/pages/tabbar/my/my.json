@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-top": "/components/my-top/my-top",
+    "my-insurance": "/components/my-insurance/my-insurance",
+    "slide-column": "/components/slide-column/slide-column",
+    "my-server": "/components/my-server/my-server"
+  }
+}

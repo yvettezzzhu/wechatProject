@@ -1,0 +1,1 @@
+<view><view class="box"><view class="title">{{''+title+''}}</view><view class="second"><view class="author">{{''+author+''}}</view></view><view class="content"><rich-text nodes="{{content[0].content}}"></rich-text></view></view></view>

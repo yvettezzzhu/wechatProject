@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "文章",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "hot-news": "/components/hot-news/hot-news",
+    "guess-news": "/components/guess-news/guess-news"
+  }
+}

@@ -1,0 +1,1 @@
+<view><my-top vue-id="6ed9f9ef-1" bind:__l="__l"></my-top><view class="blank1"></view><my-insurance vue-id="6ed9f9ef-2" bind:__l="__l"></my-insurance><slide-column vue-id="6ed9f9ef-3" bind:__l="__l"></slide-column><view style="height:8px;margin-top:16px;background-color:#eff2f5;"></view><my-server vue-id="6ed9f9ef-4" bind:__l="__l"></my-server></view>

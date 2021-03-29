@@ -1,0 +1,129 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/tabbar/index/index",
+            "style" : {
+                "navigationBarTitleText" : "知保"
+            }
+        },
+        {
+            "path" : "pages/tabbar/news/news",
+            "style" : {
+                "navigationBarTitleText" : "文章",
+                "enablePullDownRefresh" : true, //设置为true表示当前页面开启下拉刷新
+                "backgroundTextStyle" : "dark", //下拉 loading 的样式，仅支持 dark/light
+                "onReachBottomDistance" : 50
+				
+            }
+        },
+        {
+            "path" : "pages/tabbar/product/product",
+            "style" : {
+                "navigationBarTitleText" : "产品",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/tabbar/search/search",
+            "style" : {
+                "navigationBarTitleText" : "发现",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/tabbar/my/my",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        },
+        {
+            "path" : "pages/news_detail/news_detail",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false
+            }
+        }
+        ,{
+            "path" : "pages/product_detail/product_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/consultant/consultant",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/resigter/resigter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "look",
+        "navigationBarBackgroundColor" : "#eff2f5",
+        "backgroundColor" : "#eff2f5"
+    },
+    "tabBar" : {
+        "color" : "#3e465f",
+        "selectedColor" : "#5428ee",
+        "backgroundColor" : "#eff2f5",
+        "list" : [
+            {
+                "pagePath" : "pages/tabbar/index/index",
+                "iconPath" : "static/index.png",
+                "selectedIconPath" : "static/index-active.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabbar/news/news",
+                "iconPath" : "static/news.png",
+                "selectedIconPath" : "static/news-active.png",
+                "text" : "资讯"
+            },
+            {
+                "pagePath" : "pages/tabbar/product/product",
+                "iconPath" : "static/product.png",
+                "selectedIconPath" : "static/product-active.png",
+                "text" : "产品"
+            },
+            {
+                "pagePath" : "pages/tabbar/search/search",
+                "iconPath" : "static/search.png",
+                "selectedIconPath" : "static/search-active.png",
+                "text" : "发现"
+            },
+            {
+                "pagePath" : "pages/tabbar/my/my",
+                "iconPath" : "static/my.png",
+                "selectedIconPath" : "static/my-active.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}

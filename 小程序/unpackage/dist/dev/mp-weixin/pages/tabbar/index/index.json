@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "知保",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "new-swiper": "/components/new-swiper/new-swiper",
+    "navblock": "/components/navblock/navblock",
+    "little-module1": "/components/little-module1/little-module1",
+    "adv-article": "/components/adv-article/adv-article",
+    "little-module2": "/components/little-module2/little-module2",
+    "little-module3": "/components/little-module3/little-module3",
+    "little-module4": "/components/little-module4/little-module4",
+    "content-tab": "/components/content-tab/content-tab",
+    "bottom": "/components/bottom/bottom"
+  }
+}

@@ -1,0 +1,113 @@
+{
+    "name" : "小程序",
+    "appid" : "__UNI__F0E5024",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "passwordSecret" : "passwordSecret-demo11",
+    "tokenSecret" : "tokenSecret-demo11",
+    "tokenExpiresIn" : 7200,
+    "tokenExpiresThreshold" : 600,
+    "passwordErrorLimit" : 6,
+    "bindTokenToDevice" : true,
+    "passwordErrorRetryTime" : 3600,
+    "autoSetInviteCode" : false,
+    "forceInviteCode" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "tokenExpiresIn" : 2592000,
+        "oauth" : {
+            "weixin" : {
+                "appid" : "weixin appid",
+                "appsecret" : "weixin appsecret"
+            },
+            "apple" : {
+                "bundleId" : "your APP bundleId"
+            }
+        },
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {},
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {}
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx423e9f56253bcea2",
+        "appsecret" : "3e7ba200114e45fa83c084c41a71ae6b",
+        "setting" : {
+            "urlCheck" : false,
+            "minified" : false
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userInfo" : {
+                "desc" : "授权登陆"
+            },
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序位置接口的效果展示"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "service" : {
+        "sms" : {
+            "name" : "DCloud",
+            "codeExpiresIn" : 300,
+            "smsKey" : "your sms key",
+            "smsSecret" : "your sms secret"
+        },
+        "univerify" : {
+            "appid" : "your appid",
+            "apiKey" : "your apiKey",
+            "apiSecret" : "your apiSecret"
+        }
+    }
+}

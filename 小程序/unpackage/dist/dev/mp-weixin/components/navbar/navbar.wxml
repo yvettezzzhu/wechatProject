@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['change']]]]}}" class="navbar" bindtap="__e"><view class="navbar-fixed"><view class="navbar-search"><view class="navbar-search-icon"><image src="../../static/search-grey.png" mode></image></view><view class="navbar-search-text">高性价比重疾险</view></view></view><view style="height:90rpx;"></view></view>

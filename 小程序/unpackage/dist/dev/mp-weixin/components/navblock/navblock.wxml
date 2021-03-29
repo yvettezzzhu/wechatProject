@@ -1,0 +1,1 @@
+<view class="back"><view class="box"><block wx:for="{{content1}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="flex-son"><view class="inner-box"><navigator url="{{item.url}}"><image src="{{item.img}}" mode></image><view>{{''+item.text+''}}</view></navigator></view></view></block></view></view>
