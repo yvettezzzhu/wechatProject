@@ -1,0 +1,1 @@
+<view><view class="first"><text>知保热搜</text></view><view class="container"><block wx:for="{{history}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="content2"><navigator url="{{'../../news_detail/news_detail?aid='+item.article_id}}"><text class="title">{{item.title}}</text><text class="icon">{{item.icon}}</text></navigator></view></block></view></view>

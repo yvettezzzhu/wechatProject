@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "产品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "new-product-content-tab": "/components/new-product-content-tab/new-product-content-tab",
+    "product-bottom": "/components/product-bottom/product-bottom"
+  }
+}

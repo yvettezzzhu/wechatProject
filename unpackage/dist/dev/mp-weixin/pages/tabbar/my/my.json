@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-insurance": "/components/my-insurance/my-insurance",
+    "slide-column": "/components/slide-column/slide-column",
+    "my-server": "/components/my-server/my-server"
+  }
+}

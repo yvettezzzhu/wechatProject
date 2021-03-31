@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 背景色 */
+/* 字体颜色 */
+/* 左右内padding */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background-color: #FFFFFF;
+}
+.top1 .pic {
+  width: 300rpx;
+  height: 80px;
+}
+.top1 .title {
+  height: 80px;
+  padding: 14px 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.top1 .title .first {
+  font-size: 50rpx;
+}
+.top1 .title .second {
+  font-size: 42rpx;
+  color: #808080;
+  font-weight: 400;
+}
+.box {
+  background-color: #FFFFFF;
+  margin: 0 30rpx;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #a49cef, -2px -2px 4px #a49cef;
+  padding: 12px 24rpx;
+}
+.box .one {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.box .one .little-box {
+  background-image: -webkit-linear-gradient(left, #a3a6ff, #88c7ff);
+  background-image: linear-gradient(to right, #a3a6ff, #88c7ff);
+  width: 30%;
+  text-align: center;
+  color: #EFF2F5;
+  padding: 6px 0;
+  border-radius: 6px;
+}
+.box .one .little-box .first-line {
+  margin-bottom: 4px;
+  font-size: 28rpx;
+}
+.box .one .little-box .second-line {
+  font-size: 36rpx;
+}
+.box .two {
+  padding: 12px 16rpx;
+  text-align: center;
+}
+.box .two image {
+  margin-top: 8px;
+  width: 300rpx;
+  height: 300rpx;
+}
+.box .two .t2 {
+  color: #5428EE;
+}
+

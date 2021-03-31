@@ -1,0 +1,1 @@
+<view><new-product-content-tab vue-id="4ae289e2-1" bind:__l="__l"></new-product-content-tab><product-bottom vue-id="4ae289e2-2" bind:__l="__l"></product-bottom></view>

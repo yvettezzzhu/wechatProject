@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "hot-search": "/components/hot-search/hot-search",
+    "qand-a": "/components/QandA/QandA",
+    "search-everyone": "/components/search-everyone/search-everyone"
+  }
+}

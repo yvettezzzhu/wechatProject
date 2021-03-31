@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "consultant-title": "/components/consultant-title/consultant-title",
+    "consultant-content": "/components/consultant-content/consultant-content"
+  }
+}
